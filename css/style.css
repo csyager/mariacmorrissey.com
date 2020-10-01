@@ -22,9 +22,10 @@ div.col {
     padding: 0;
 }
 
-img.headshot {
-    width: 471px;
-    height: 367px;
+div.container-headshot {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
 }
 
 a.nav-link {
@@ -51,4 +52,12 @@ div.footer-col {
 
 div.bio {
     width: 65%;
+}
+
+h1.name-title {
+    margin-top: 30px;
+}
+
+div.blog-card {
+    margin-bottom: 30px;
 }
