@@ -61,3 +61,8 @@ h1.name-title {
 div.blog-card {
     margin-bottom: 30px;
 }
+
+div.post-content {
+	text-align: left;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif
+}
