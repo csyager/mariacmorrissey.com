@@ -1,0 +1,8 @@
+{
+    "TemplateName": "PostNotificationTemplate",
+    "TemplateContent": {
+        "Subject": "New post on www.mariacmorrissey.com!",
+        "Text": "Check out the latest post on www.mariacmorrissey.com, \"{{title}}\", at {{url}}.\r\n{{additional_message}}\r\nBest,\r\nMaria",
+        "Html": "<p>Check out the latest post on www.mariacmorrissey.com, <a href=\"{{url}}\">\"{{title}}\"</a></p>{{additional_message}}<p>Best,<br />Maria</p><br /><br /><a href={{amazonSESUnsubscribeUrl}}>Click here to unsubscribe.</a>"
+    }   
+}

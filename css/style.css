@@ -70,3 +70,12 @@ div.blog-card {
 div.post-content {
 	text-align: left;
 }
+
+button.newsletter-modal-button {
+    font-size: 20;
+    margin: auto;
+}
+
+button.newsletter-modal-button:focus {
+    box-shadow: none;
+}
