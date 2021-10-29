@@ -25,6 +25,32 @@
         <title>mariacmorrissey.com</title>
     </head>
     <body>
+        <!-- newsletter modal -->
+        <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="newsletterModalLabel">Subscribe to newsletter</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form id="subscriptionForm" action="#" method="POST">
+                        <div class="modal-body">                    
+                            <input type="email" class="form-control" name="email" id="emailInput" placeholder="Email address"> 
+                            <div id="formResults"></div>   
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- script to handle submission -->
+        <script type="text/javascript" src="scripts/submitNewsletterSubscription.js"></script>
+
         <div class="row full-height">
             <div class="col-1 left-margin d-none d-md-flex"></div>
             <div class="col text-center shadow-lg">
@@ -38,12 +64,10 @@
                             <li class="nav-item active">
                             <a class="nav-link" href="../blog.html">Posts</a>
                             </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-link nav-link newsletter-modal-button" data-toggle="modal" data-target="#newsletterModal">Newsletter</a>
+                            </li>
                         </ul>
-                      
-                      <!-- <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form> -->
                     </div>
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

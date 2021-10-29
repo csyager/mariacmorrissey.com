@@ -1,0 +1,12 @@
+{
+    "ContactListName": "BlogContactList",
+    "Topics": [
+        {
+            "TopicName": "BlogPosts",
+            "DisplayName": "Blog Posts",
+            "Description": "Notifications for blog posts",
+            "DefaultSubscriptionStatus": "OPT_IN"
+        }
+    ],
+    "Description": "Contact list for users receiving notifications for blog posts."
+}
