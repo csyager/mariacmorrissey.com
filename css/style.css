@@ -1,6 +1,8 @@
 body {
     margin: 0;
     height: 100%;
+    font-family: 'Scheherazade New', serif;
+    font-size: 1.2rem;
 }
 
 div.left-margin, div.right-margin {
@@ -51,7 +53,10 @@ div.footer-col {
 }
 
 div.bio {
-    width: 65%;
+    max-width: 481px;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
 }
 
 h1.name-title {
@@ -64,5 +69,4 @@ div.blog-card {
 
 div.post-content {
 	text-align: left;
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif
 }
