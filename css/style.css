@@ -2,7 +2,7 @@ body {
     margin: 0;
     height: 100%;
     font-family: 'Scheherazade New', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 div.left-margin, div.right-margin {
@@ -12,6 +12,10 @@ div.left-margin, div.right-margin {
 
 div.full-height {
     height: 100%;
+}
+
+div.container {
+    width: 80%;
 }
 
 .navbar-nav {
@@ -30,12 +34,12 @@ div.container-headshot {
     margin-bottom: 20px;
 }
 
-a.nav-link {
-    font-size: 20;
+a.nav-link, button.newsletter-modal-button {
+    font-size: 1.5rem;
 }
 
 div.footer-container {
-    padding-top: 120px;
+    padding-top: 250px;
 }
 
 footer.footer {
@@ -54,25 +58,51 @@ div.footer-col {
 
 div.bio {
     max-width: 481px;
-    text-align: justify;
     width: 80%;
     margin: auto;
 }
 
 h1.name-title {
     margin-top: 30px;
+    font-size: 3.5rem;
 }
 
 div.blog-card {
     margin-bottom: 30px;
 }
 
+h5.card-title {
+    font-size: 1.5rem;
+}
+
+h1.post-title {
+    text-align: center;
+}
+
+h5.post-date {
+    text-align: center;
+}
+
+img.post-header-image {
+    width: 100%;
+}
+
 div.post-content {
 	text-align: left;
+    width: 80%;
+}
+
+div.previous-post-col {
+    text-align: right;
+}
+
+@media (min-width: 1500px) {
+    div.post-content {
+        width: 40%;
+    }
 }
 
 button.newsletter-modal-button {
-    font-size: 20;
     margin: auto;
 }
 
